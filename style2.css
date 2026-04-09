@@ -1,0 +1,42 @@
+.menu {
+border: 2px solid black;
+padding: 10px;
+display: inline-block;
+}
+
+.menu a {
+margin: 10px;
+}
+
+
+a:link {color:#DB0F0F; tekst}
+
+
+/* 📱 TELEFON */
+@media (max-width: 768px) {
+
+  .menu {
+    display: block;
+    text-align: center;
+  }
+
+  .menu a {
+    display: block;
+    margin: 10px 0;
+  }
+
+}
+
+/* 💻 KOMPUTER */
+@media (min-width: 769px) {
+
+  .menu {
+    display: inline-block;
+  }
+
+  .menu a {
+    display: inline;
+    margin: 10px;
+  }
+
+}
